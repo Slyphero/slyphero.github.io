@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/zenika.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header-container">
+            <header>
+                <nav class="header-nav">
+                    <a class="nav-link" href="index.html">Accueil</a>
+                    <a class="nav-link" href="ocean.html">Océan</a>
+                    <a class="nav-link" href="zenika.html">Zenika</a>
+                    <a class="nav-link" href="propos.html">A propos</a>
+                </nav>
+            </header>
+        </div>
+        <div class="page-container">
+            <h1>Mauvaise interface</h1>
+    
+            <form action="#">
+                <label for="username">Pseudo : </label>
+                <br>
+                <input type="text" id="username" name="username" value="Votre pseudo">
+                <br>
+    
+                <label for="phone-number">Numéro de téléphone : </label>
+                <br>
+                <input type="range" id="phone-number" name="phone-number" min="0" max="999999999" step="1" onchange="">
+                <br>
+                <input type="text" id="phone-number-result" name="phone-number-result" value="">
+                <br>
+    
+                <label for="email">Email : </label>
+                <br>
+                <input type="text" name="email" id="email" >
+                <br>
+                
+                <input class="reset-form" type="submit" onclick="resetForm(this.form)" value="Effacer le formulaire">
+                <input class="send-form" type="submit" value="Envoyer">
+            </form>
+        </div>
+    </div>
+    <div class="footer-container">
+        <footer>
+
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
